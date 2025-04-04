@@ -25,9 +25,9 @@ public class Calificacion {
         return idCalificacion;
     }
 
-    public void setIdCalificacion(Integer idCalificacion) {
-        this.idCalificacion = idCalificacion;
-    }
+    private int id;
+    private float calificación;
+    private LocalDate fechaEvaluación;
 
     public Estudiante getEstudiante() {
         return estudiante;
